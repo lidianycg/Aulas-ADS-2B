@@ -1,0 +1,21 @@
+body {
+    background-color: #e8d889;
+  }
+
+h1 {
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color:darkolivegreen;
+    font-size: 36px;
+}
+
+.corpoDoTexto{
+    color:darkblue;
+    font-size: 16px;
+}
+
+.corpoDoTexto2{
+    color:crimson;
+    font-size: 16px;
+}

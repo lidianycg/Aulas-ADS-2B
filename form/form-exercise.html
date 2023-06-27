@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Atividade - Formulário</title>
+    </head>
+    <body>
+        <form action="">
+        <fieldset>
+            <div>
+                <label for="pais">País</label><br>
+                <select name="pais" id="pais">
+                    <option selected value="">Selecione...</option>
+                    <option value="BR">Brasil</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="cep">CEP*</label><br>
+                <input name="cep" id="cep" type="text" value="60335-010" max-lenght="10">
+            </div>
+
+            <div>
+                <label for="endereco">Endereço*</label><br>
+                <input name="endereco" id="endereco" type="text" value="Av. Ouro Fino">
+            </div>
+
+            <div>
+                <label for="numero">Número*</label><br>
+                <input name="numero" id="numero" type="number" value="112">
+            </div>
+
+            <div>
+                <label for="complemento">Complemento</label><br>
+                <input name="complemento" id="complemento" type="text">
+            </div>
+
+            <div>
+                <label for="UF">UF*</label><br>
+                <select name="uf" id="uf">
+                    <option selected value="">Selecione...</option>
+                    <option value="SP">São Paulo</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="cidade">Cidade*</label><br>
+                <select name="cidade" id="cidade">
+                    <option selected value="">Selecione...</option>
+                    <option value="">São José dos Campos</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="bairro">Bairro</label><br>
+                <input name="bairro" id="bairro" type="text">
+            </div>
+        </fieldset>
+            <hr>
+            
+        <fieldset>
+            Dados profissionais
+        </fieldset>
+        <button type="submit">Atualizar Dados</button>
+
+        </form>
+
+    </body>
+    
+</html>

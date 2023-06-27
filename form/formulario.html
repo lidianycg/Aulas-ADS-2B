@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Form</title>
+    </head>
+    <body>
+       <form action="https://pruu.herokuapp.com/dump/test" method="post" target="_blank">
+
+        <fieldset>
+            <input id="senha" name="senha" type="password">
+            <input id="idade" name="idade" type="number">
+            <input id="email" name="email" type="email">
+            <input id="dataNascimento" name="dataNascimento" type="date">
+            <input id="corFavorita" name="corFavorita" type="color">
+        </fieldset>
+
+            <br>
+
+        <fieldset>
+            <input id="assunto" name="assunto" type="text">
+            <select name="motivo" id="motivo">
+                <option value="sem_motivo">Não selecionado</option>
+                <option selected value="desistiu">Desistência</option>
+                <option value="nao_gostou">Não gostou do produto</option>
+            </select>
+            <input name="file" id="file" type="file" multiple>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10"> </textarea>
+        </fieldset>
+            <button type="submit">Enviar</button>
+            <button type="reset">Apagar tudo</button>
+       </form>
+    </body>
+</html>
